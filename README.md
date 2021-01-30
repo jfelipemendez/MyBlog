@@ -1,2 +1,2 @@
-#My Blog
+#MyBlog
 This is my blog
