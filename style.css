@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*navbar*/
+.navbar-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.navbar-wrapper {
+    display: flex;
+}
+
+.navbar-left {
+    padding-left: 20px;
+    font-size: 30px;
+    color:grey;
+}
+
+.navbar-right {
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.navbar-right a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar-right a:hover {
+    color: blue;
+}
+
+/*content*/
+.main-content-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/*left-side*/
+.left-column {
+    width: 300px;
+    height: 100vh;
+    /*border-right: 2px solid grey;*/
+}
+
+.skills-learnt {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-learnt h2  {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+/*center-content*/
+.body-content {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.blog-header h1 {
+    color: grey;
+    border-bottom: 2px solid grey;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.profile-pic img {
+    width: 400px;
+    height:500px;
+}
+
+/*blog-posts*/
+.blog-post-wrapper {
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.blog-post {
+    width: 500px;
+    margin: auto;
+    color: grey;
+    border: 2px solid grey; 
+    box-shadow: 5px 5px;
+    margin-bottom: 10px;;
+}
+
+.blog-post p {
+    padding-bottom: 10px;
+}
+
+/*right-side*/
+.right-column {
+    margin-left: auto;
+    width: 300px;
+    height: 100vh;
+    /*border-left: 3px solid grey;*/
+}
+
+.skills-learning {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.skills-learning h2{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.skills-list a {
+    text-decoration: none;
+    color: grey;
+}
+
+.skills-list h3 {
+    margin-top: 10px;
+}
+
+.skills-list h3:hover {
+    color: blue;
+}
