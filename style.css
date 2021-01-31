@@ -2,13 +2,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace; /*temp font*/
+    background-color: #81ced1;
 }
 
 /*navbar*/
 .navbar-container {
-    margin-bottom: 30px;
+    margin-bottom: 0;
     padding: 20px;
-    border-bottom: 2px solid grey;
+    /*border-bottom: 2px solid #d8141d;*/
 }
 
 .navbar-wrapper {
@@ -18,7 +20,8 @@ body {
 .navbar-left {
     padding-left: 20px;
     font-size: 30px;
-    color:grey;
+    font-weight: 800;
+    color: #d8141d;
 }
 
 .navbar-right {
@@ -28,12 +31,13 @@ body {
 
 .navbar-right a {
     padding-right: 20px;
+    font-weight: 700;
     text-decoration: none;
-    color: grey;
+    color: #d8141d;
 }
 
 .navbar-right a:hover {
-    color: blue;
+    color: white;
 }
 
 /*content*/
@@ -104,8 +108,10 @@ body {
     color: grey;
     border: 2px solid grey; 
     box-shadow: 5px 5px;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    background-color: white;
 }
+
 
 .blog-post p {
     padding-bottom: 10px;
@@ -119,8 +125,13 @@ body {
     /*border-left: 3px solid grey;*/
 }
 
+.right-column:hover {
+    background-color: #81ced1;
+}
+
 .skills-learning {
     display: flex;
+    margin-top: 50px;
     justify-content: center;
     width: 100%;
 }
@@ -148,5 +159,5 @@ body {
 }
 
 .skills-list h3:hover {
-    color: blue;
+    color: #d8141d;
 }
