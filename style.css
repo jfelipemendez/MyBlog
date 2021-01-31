@@ -60,7 +60,7 @@ body {
 }
 
 .skills-learnt h2  {
-    color: grey;
+    color: #d8141d;
     text-transform: uppercase;
     font-size: 20px;
     border-bottom: 1px solid grey;
@@ -79,8 +79,8 @@ body {
 }
 
 .blog-header h1 {
-    color: grey;
-    border-bottom: 2px solid grey;
+    color: #d8141d;
+    border-bottom: 2px solid #d8141d;
 }
 
 .profile-pic {
@@ -134,13 +134,13 @@ body {
     margin-top: 50px;
     justify-content: center;
     width: 100%;
+    color: #d8141d;
 }
 
 .skills-learning h2{
-    color: grey;
     text-transform: uppercase;
     font-size: 20px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #d8141d;
 }
 
 .skills-list {
@@ -151,7 +151,7 @@ body {
 
 .skills-list a {
     text-decoration: none;
-    color: grey;
+    color: #d8141d;
 }
 
 .skills-list h3 {
@@ -159,5 +159,5 @@ body {
 }
 
 .skills-list h3:hover {
-    color: #d8141d;
+    color: white;
 }
