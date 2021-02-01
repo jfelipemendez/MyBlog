@@ -106,11 +106,12 @@ body {
     width: 500px;
     margin: auto;
     color: grey;
+    box-shadow: 5px 5px grey;
     border: 2px solid grey; 
-    box-shadow: 5px 5px;
     margin-bottom: 10px;
     background-color: white;
 }
+
 
 
 .blog-post p {
